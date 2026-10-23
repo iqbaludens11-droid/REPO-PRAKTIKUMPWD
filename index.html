@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="BeritaKilat - Portal berita terkini seputar teknologi, sains, desain, dan dunia digital.">
+  <title>Berita Kilat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header>
+    <h1>📰 BeritaKilat</h1>
+    <p>Berita Terkini &bull; Teknologi &bull; Sains &bull; Desain</p>
+  </header>
+
+  <!-- ==================== NAV (Flexbox: Logo Kiri, Menu Kanan) ==================== -->
+  <nav>
+    <a href="index.html" class="logo">
+      <div class="logo-icon">B</div>
+      <span class="logo-text">BeritaKilat</span>
+    </a>
+    <ul class="menu">
+      <li><a href="index.html" class="active">📰 Berita</a></li>
+      <li><a href="about.html">📖 Tentang</a></li>
+      <li><a href="portfolio.html">👤 Portfolio</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==================== SECTION (Grid: Artikel + Aside) ==================== -->
+  <section>
+
+    <!-- ==================== ARTIKEL ==================== -->
+    <article>
+      <p class="subtitle">Berita Pilihan Hari Ini</p>
+      <h2>Berita <span class="highlight">Terkini</span></h2>
+
+      <!-- FEATURED NEWS -->
+      <div class="news-grid">
+
+        <div class="news-card news-featured">
+          <div class="news-thumb t1">🤖</div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-category cat-tech">Teknologi</span>
+              <span class="news-date">23 Oktober 2026</span>
+            </div>
+            <h4>AI Generatif Kini Bisa Menulis Kode Secara Mandiri — Era Baru Pemrograman Dimulai</h4>
+            <p>Sebuah perusahaan teknologi besar mengumumkan AI terbaru yang mampu memahami konteks proyek secara
+              menyeluruh dan menulis kode production-ready tanpa intervensi manusia secara signifikan.</p>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="news-thumb t2">🔬</div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-category cat-science">Sains</span>
+              <span class="news-date">22 Oktober 2026</span>
+            </div>
+            <h4>Teleskop James Webb Temukan Planet yang Berpotensi Dihuni</h4>
+            <p>NASA mengonfirmasi penemuan exoplanet dengan atmosfer yang mengandung uap air, menandakan kemungkinan
+              adanya kehidupan di luar Bumi.</p>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="news-thumb t3">🎨</div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-category cat-design">Desain</span>
+              <span class="news-date">21 Oktober 2026</span>
+            </div>
+            <h4>Tren UI/UX 2027: Glassmorphism dan Micro-Interactions Mendominasi</h4>
+            <p>Para desainer dunia memperkirakan glassmorphism dan animasi mikro akan menjadi standar desain antarmuka
+              tahun depan.</p>
+          </div>
+        </div>
+
+        <div class="news-card">
+          <div class="news-thumb t4">🌍</div>
+          <div class="news-body">
+            <div class="news-meta">
+              <span class="news-category cat-world">Dunia</span>
+              <span class="news-date">20 Oktober 2026</span>
+            </div>
+            <h4>Indonesia Raih Peringkat 5 Besar Ekosistem Startup Digital Asia Tenggara</h4>
+            <p>Dengan pertumbuhan startup yang pesat, Indonesia kini menjadi salah satu pusat inovasi digital terbesar
+              di kawasan Asia Tenggara.</p>
+          </div>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- ==================== ASIDE ==================== -->
+    <aside>
+      <h3>🔥 Trending</h3>
+
+      <div class="trending-item">
+        <span class="trending-number">01</span>
+        <div class="trending-info">
+          <h5>ChatGPT-5 Resmi Dirilis dengan Kemampuan Multimodal</h5>
+          <span>5 jam yang lalu</span>
+        </div>
+      </div>
+
+      <div class="trending-item">
+        <span class="trending-number">02</span>
+        <div class="trending-info">
+          <h5>Apple Vision Pro 2 Hadir dengan Harga Lebih Terjangkau</h5>
+          <span>8 jam yang lalu</span>
+        </div>
+      </div>
+
+      <div class="trending-item">
+        <span class="trending-number">03</span>
+        <div class="trending-info">
+          <h5>Framework CSS Baru Menantang Dominasi Tailwind</h5>
+          <span>12 jam yang lalu</span>
+        </div>
+      </div>
+
+      <div class="trending-item">
+        <span class="trending-number">04</span>
+        <div class="trending-info">
+          <h5>SpaceX Berhasil Mendarat di Mars untuk Pertama Kalinya</h5>
+          <span>1 hari yang lalu</span>
+        </div>
+      </div>
+
+      <h3 style="margin-top: 24px;">📂 Kategori</h3>
+      <ul>
+        <li>💻 Teknologi</li>
+        <li>🔬 Sains & Riset</li>
+        <li>🎨 Desain & Kreativitas</li>
+        <li>🌍 Berita Dunia</li>
+        <li>🚀 Startup & Bisnis</li>
+      </ul>
+    </aside>
+
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>📰 BeritaKilat</h4>
+        <p>Portal berita terkini seputar teknologi, sains, dan dunia digital.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <a href="index.html">Berita</a>
+        <a href="about.html">Tentang</a>
+        <a href="portfolio.html">Portfolio</a>
+      </div>
+      <div class="footer-col">
+        <h4>Kontak</h4>
+        <p>iqbaludens@gmail.com</p>
+        <p>Indonesia 🇮🇩</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 <span>BeritaKilat</span>. Dibuat oleh Iqbaludens ✨</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
