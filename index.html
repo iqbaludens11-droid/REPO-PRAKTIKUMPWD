@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Toko Gaming Gear</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <h1>Toko Gaming Gear</h1>
+
+    <h2>Daftar Produk</h2>
+
+    <input type="text" id="cari" placeholder="Cari produk...">
+
+    <div id="produk"></div>
+
+    <hr>
+
+    <h2>Keranjang Belanja</h2>
+
+    <button id="buka">Buka / Tutup Keranjang</button>
+
+    <div id="keranjang">
+        <div id="isi"></div>
+
+        <p>Jumlah Item: <span id="jumlah">0</span></p>
+        <p>Total Harga: Rp <span id="total">0</span></p>
+
+        <button id="kosongkan">Kosongkan Keranjang</button>
+        <button id="checkout">Checkout</button>
+    </div>
+
+    <hr>
+
+    <h2>Ringkasan Pesanan</h2>
+    <div id="hasil"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
